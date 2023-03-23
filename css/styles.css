@@ -1,0 +1,77 @@
+*{margin: 0;padding: 0;}
+
+body{
+    background-color: black;
+    background-image: url(../img/fundoTelaA.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    margin: 0 auto;
+    width: 800px;
+    border: 5px solid rgb(41, 35, 21);
+    background-color: rgba(59, 59, 33, 0.76);
+    padding: 20px;
+}
+
+h1{
+    color: rgb(253, 236, 215);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+#banner{
+    max-width: 100%;
+    border: 5px solid rgb(253, 236, 215);
+    border-radius: 15px 0 15px 0;
+    margin-bottom: 10px;
+}
+
+hr{display: none;}
+
+p{
+    color: rgb(253, 236, 215);
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 15px;
+}
+
+p span{
+    color: tomato;
+    border-bottom: 1px dashed black;
+}
+
+h2, h3, h4{
+    border-bottom: 5px solid rgb(41, 35, 21);
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, rgba(73, 73, 22, 0.76)0%, rgba(71, 71, 27, 0.466)50% , rgba(59, 59, 33, 0.76)100%);
+    color: rgb(180, 153, 117);
+}
+
+h2{
+    font-style: italic;
+}
+
+h3, h4{
+    padding-bottom: 5px;
+}
+
+table{
+    margin: 0 auto;
+    border: none;
+}
+
+
+table td{
+    padding: 10px;
+    border: none;
+}
+
+table img{
+    border-radius: 10px;
+    border: 3px solid rgb(41, 35, 21);
+}
