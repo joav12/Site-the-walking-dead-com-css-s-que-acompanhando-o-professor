@@ -6,6 +6,13 @@ img{
     margin-bottom: 10px;
 }
 
+ul{
+    background: linear-gradient(90deg, rgba(107, 107, 33, 0.76)0%, rgba(71, 71, 27, 0.466)50% , rgb(59, 59, 33)100%);
+    padding: 10px;
+    border-bottom: 5px solid rgb(41, 35, 21);
+    border-radius: 15px;
+}
+
 ul li{
     display: inline-block;
     padding: 5px;
@@ -15,6 +22,7 @@ ul li{
     padding-right: 20px;
     text-align: center;
     margin-right: 10px;
+    border-radius: 15px;
 }
 
 ul li:hover{
